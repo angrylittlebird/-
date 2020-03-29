@@ -8,6 +8,10 @@ import { TopMenu } from './components';
 })
 export class AppComponent {
   title = '拼多多';
+
+  tabSelection(event){
+    console.log(event);
+  }
   
   topMenu:TopMenu[] =  [
     {
