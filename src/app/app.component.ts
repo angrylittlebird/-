@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TopMenu } from './components';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,80 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angulardemo';
+  title = '拼多多';
+  
+  topMenu:TopMenu[] =  [
+    {
+      title: '热门2',
+      link: ''
+    },
+    {
+      title: '男装',
+      link: ''
+    },
+    {
+      title: '百货',
+      link: ''
+    },
+    {
+      title: '热门',
+      link: ''
+    },
+    {
+      title: '男装',
+      link: ''
+    },
+    {
+      title: '百货',
+      link: ''
+    },
+    {
+      title: '热门',
+      link: ''
+    },
+    {
+      title: '男装',
+      link: ''
+    },
+    {
+      title: '百货',
+      link: ''
+    },
+    {
+      title: '热门',
+      link: ''
+    },
+    {
+      title: '男装',
+      link: ''
+    },
+    {
+      title: '百货',
+      link: ''
+    },
+    {
+      title: '热门',
+      link: ''
+    },
+    {
+      title: '男装',
+      link: ''
+    },
+    {
+      title: '百货',
+      link: ''
+    },
+    {
+      title: '热门',
+      link: ''
+    },
+    {
+      title: '男装',
+      link: ''
+    },
+    {
+      title: '百货1',
+      link: ''
+    },
+  ]
 }

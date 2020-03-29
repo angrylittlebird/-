@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let tab of menus;let i = index" [class.active]="selectedIndex === i">
+        <a (click)="selectedIndex = i" herf="#">{{tab.title}}</a>
+
+        <span *ngIf="selectedIndex === i" class="indicator"></span>
+    </li>
+</ul>
