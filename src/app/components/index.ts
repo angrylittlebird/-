@@ -1,2 +1,2 @@
-export * from './scrollable-tab-component';
+export * from './scrollable-tab';
 export * from  './image-slider';

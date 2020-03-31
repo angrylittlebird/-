@@ -7,11 +7,11 @@ export interface TopMenu {
 
 
 @Component({
-  selector: 'app-scrollable-tab-component',
-  templateUrl: './scrollable-tab-component.component.html',
-  styleUrls: ['./scrollable-tab-component.component.css']
+  selector: 'app-scrollable-tab',
+  templateUrl: './scrollable-tab.component.html',
+  styleUrls: ['./scrollable-tab.component.css']
 })
-export class ScrollableTabComponentComponent implements OnInit {
+export class ScrollableTabComponent implements OnInit {
 
   selectedIndex: number = -1;
 
